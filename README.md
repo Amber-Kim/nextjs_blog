@@ -9,6 +9,19 @@ npm run dev
 # or
 yarn dev
 ```
+## Additional Npm install
+
+````bash
+$ npm install --save gray-matter
+# gray-matter will convert the contents into the object string
+````
+<hr />
+
+````bash
+$ npm install remark remark-html --save
+# remark will switch the data from Markdown to html string format
+````
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
