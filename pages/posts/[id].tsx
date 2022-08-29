@@ -39,12 +39,13 @@ export const getStaticPaths: GetStaticPaths = async () => {
   }
 }
 
-export const getStaticProps: GetStaticProps = async ({params}) => {
+export const getStaticProps: GetStaticProps = async ({ params }) => {
   console.log('params', params);
+  // { id: 'ssg-ssr' }
   const postData = await getPostData(params.id as string)
   return {
-    props: {
-      postData
-    }
+      props: {
+          postData
+      }
   }
 }
