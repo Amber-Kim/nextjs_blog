@@ -19,7 +19,7 @@ const Home = ({allPostsData}: {
       <section className={homeStyles.headingMD}>
         <p>Amber Kim</p>
         <p>
-          This is a small Blog to read Markdown posts through Directory and file. You can click the title, then the dynamic page Link leads to post' id Params page.
+          This is a small Blog to read Markdown posts through Directory and file. You can click the title, then the dynamic page Link leads to post&apos; id Params page.
           <hr />
           The posts are arranged by lastest date sorting.
         </p>
